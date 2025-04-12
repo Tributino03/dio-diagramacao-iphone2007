@@ -1,0 +1,68 @@
+package iphone;
+
+public class Iphone2007 implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet{
+	
+	public String ligarIphone() {
+		return "Ligando Iphone";
+	}
+	
+	public String desligarIphone() {
+		return "Desligando Iphone";
+	}
+
+	@Override
+	public String exibirPagina(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String adicionarNovaAba() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String atualizarPagina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String ligar(String num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String atender() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String iniciarCorreioVoz() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String tocar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String pausar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String selecionarMusica(String musica) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

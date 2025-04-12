@@ -1,0 +1,25 @@
+package iphone;
+
+public class Main {
+    public static void main(String[] args) {
+        Iphone2007 iphone = new Iphone2007();
+
+        System.out.println(iphone.ligarIphone());
+        System.out.println(iphone.desligarIphone());
+
+        
+        System.out.println(iphone.selecionarMusica("Let It Be"));
+        System.out.println(iphone.tocar());
+        System.out.println(iphone.pausar());
+
+       
+        System.out.println(iphone.ligar("1234-5678"));
+        System.out.println(iphone.atender());
+        System.out.println(iphone.iniciarCorreioVoz());
+
+      
+        System.out.println(iphone.exibirPagina("https://www.apple.com"));
+        System.out.println(iphone.adicionarNovaAba());
+        System.out.println(iphone.atualizarPagina());
+    }
+}
